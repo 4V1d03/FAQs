@@ -1,0 +1,11 @@
+<div class="preguntas">
+    {{#with preguntas}}
+    {{#each this}}
+    <button>
+        <span>{{pregunta}}</span>
+        <i class="fas fa-chevron-down d-arrow"></i>
+    </button>
+    <p>{{respuesta}}</p>
+    {{/each}}
+    {{/with}}
+</div>
